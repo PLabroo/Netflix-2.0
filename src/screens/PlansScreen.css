@@ -1,0 +1,35 @@
+.plansScreen {
+  margin: 20px auto;
+}
+
+.ind-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.plan-name > h5 {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.plan-button > button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+
+.plan-button > button:hover {
+  opacity: 0.6;
+}
+
+.plan-selected-button > button {
+  padding: 10px 20px;
+  background-color: grey;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
